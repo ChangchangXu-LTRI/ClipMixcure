@@ -1,6 +1,6 @@
 Package: ClipMixcure
 Type: Package
-Title: Combined likelihood profile inference for multiple imputation under mixture cure model
+Title: Combined likelihood profile inference for multiply imputed data under mixture cure model
 Version: 0.1.0
 Author: Changchang Xu
 Maintainer: Changchang Xu <changchang.xu@mail.utoronto.ca>
