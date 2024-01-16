@@ -1,11 +1,10 @@
 \name{clip.mixcure}
 \alias{clip.mixcure}
 \title{
-clip.mixcure
+combined likelihood profile inference for mixture cure models under multiple imputation
 }
 \description{
-This function implements the combination of likelihood profiles (CLIP) method described
-in Xu et al (2024) for mixture cure model. This method is useful for computing confidence intervals for parameters after multiple imputation of data sets, if the normality assumption on parameter estimates and consequently the validity of applying Rubin’s rules (pooling of variances) is in doubt. The assumption on approximating endpoints of confidence intervals and performing hypothesis tests follow the same idea as paper by Heinze (2013). The default confidence level of the combined/posterior profile distribution is equal to the values specified in the argument ci.level (usually 0.025 and 0.975). The function also accomodates two alternative endpoint estimations by Firth type penalized likelihood (Xu & Bull (2023)) and maximum likelihood.
+This function implements the combination of likelihood profiles (CLIP) method described in Xu et al (2024) for mixture cure model. This method is useful for computing confidence intervals for parameters after multiple imputation of data sets, if the normality assumption on parameter estimates and consequently the validity of applying Rubin’s rules (pooling of variances) is in doubt. The assumption on approximating endpoints of confidence intervals and performing hypothesis tests follow the same idea as paper by Heinze (2013). The default confidence level of the combined/posterior profile distribution is equal to the values specified in the argument ci.level (usually 0.025 and 0.975). The function also accomodates two alternative endpoint estimations by Firth type penalized likelihood (Xu & Bull (2023)) and maximum likelihood.
 }
 \usage{
 clip.mixcure(obj = NULL, variable = NULL, pl = F, ci.level = c(0.025, 0.975), pvalue = TRUE, bound.lo = NULL, bound.up = NULL, iternum = 20)
