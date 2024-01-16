@@ -51,8 +51,7 @@ Heinze G, Ploner M, Beyea J. Confidence intervals after multiple imputation: Com
 
 Xu C, Bull SB. Penalized maximum likelihood inference under the mixture cure model in sparse data. Statistics in Medicine 2023; 42: 2134–2161.
 
-(submitted) Xu C, Briollais L, Andrulis I, Bull SB.Inference for multiple imputation
-with penalized maximum likelihood  under the mixture cure model. Statistical Methods in Medical Research.
+(submitted) Xu C, Briollais L, Andrulis I, Bull SB.Inference for multiple imputation with penalized maximum likelihood under the mixture cure model. Statistical Methods in Medical Research.
 
 }
 \author{
